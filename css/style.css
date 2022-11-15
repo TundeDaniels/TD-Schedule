@@ -1,0 +1,277 @@
+/*Home Page*/
+
+body {
+  background-image: url(../images/IMG_6680.jpg);
+  background-repeat:no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.header{
+  background-color: rgb(0,0,0,.6);
+  position: fixed;
+  right: 0;
+  width: 100%;
+
+}
+
+.my-schedule{
+  float: left;
+  color: white;
+  margin-left:100px;
+  text-shadow: 1px 1px red;
+}
+
+.fa fa-calendar{
+  margin-right: 10px;
+}
+
+.hi{
+  font-size: 25px;
+  text-shadow: 1px 1px #f9004d;
+}
+
+.name{
+  font-size: 20px;
+  text-shadow: 1px 1px #f9004d;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin: 0;
+}
+
+li{
+display: inline-block;
+padding: 30px;
+}
+
+li:hover{
+  background-color: gray;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px red;
+}
+
+.side-note{
+  text-align: center;
+  width: 30%;
+  position: absolute;
+  top: 350px;
+  right:150px;
+  background-color: rgb(255,255,255,.4);
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  text-shadow: none;
+}
+
+
+/*SCHEDULE*/
+
+h1{
+color: white;
+text-shadow: 2px 1px black;
+text-align: center;
+}
+
+h3, p{
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px #858585;
+
+
+}
+
+h3{
+  margin: 0;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+p{
+  width: 200px;
+  padding: 0 10px 10px 30px;
+  margin-top: 5px;
+}
+
+.c1,.c2,.c3,.c4,.c5,.c6,.c14,.c15,.c16,.c17,.c112,.c113,.c114,.c115{
+  background: rgb(255,255,255,.4);
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px #f9004d, 0px 0px 20px #858585;
+}
+
+
+.c1{
+  position:absolute;
+  right: 600px;
+  top: 150px;
+}
+
+.c2{
+  position: absolute;
+  left: 200px;
+  top: 350px;
+}
+
+.c3{
+  position: absolute;
+  left: 200px;
+  top: 600px;
+}
+
+.c4{
+  position: absolute;
+  right: 600px;
+  top: 800px;
+}
+
+.c6{
+  position: absolute;
+  right: 200px;
+  top: 350px;
+}
+
+.c5{
+  position: absolute;
+  right: 200px;
+  top: 610px;
+}
+
+.c14{
+  position: absolute;
+  top: 800px;
+  left: 400px;
+}
+
+.c15{
+  position: absolute;
+  top: 800px;
+  right: 400px;
+}
+
+.c16{
+  position: absolute;
+right: 200px;
+top: 600px;
+}
+
+.c17{
+  position: absolute;
+  right: 200px;
+  top: 350px;
+}
+
+.c112{
+  position: absolute;
+  top: 400px;
+left: 200px;
+}
+
+.c113{
+position: absolute;
+top: 650px;
+left: 300px;
+}
+
+.c114{
+position: absolute;
+top: 650px;
+right: 300px;
+}
+
+.c115{
+  position: absolute;
+  top: 400px;
+  right: 200px;
+}
+
+.left{
+float: left;
+margin-left: 20px;
+background: rgb(255,255,255,.4);
+color: black;
+text-shadow: none;
+font-size: 15px;
+border-radius: 6px;
+box-shadow: 0px 0px 5px #f9004d, 0px 0px 20px #858585;
+padding: 0 10px;
+}
+
+.right{
+  float: right;
+  margin-right: 20px;
+  background: rgb(255,255,255,.4);
+ color: black;
+ text-shadow: none;
+ font-size: 15px;
+ border-radius: 6px;
+ box-shadow: 0px 0px 5px #f9004d, 0px 0px 20px #858585;
+ padding: 0 10px;
+}
+
+
+.shead{
+  color: #f9004d;
+}
+
+/**************PSEUDO******************/
+.c1:hover{
+  transform: scale(1.1);
+}
+
+.c2:hover{
+  transform: scale(1.1);
+}
+
+.c3:hover{
+  transform: scale(1.1);
+}
+
+.c4:hover{
+  transform: scale(1.1);
+}
+
+.c5:hover{
+  transform: scale(1.1);
+}
+.c6:hover{
+transform: scale(1.1);
+}
+
+.c14:hover{
+  transform: scale(1.1);
+}
+
+.c15:hover{
+  transform: scale(1.1);
+}
+
+.c16:hover{
+  transform: scale(1.1);
+}
+
+.c17:hover{
+  transform: scale(1.1);
+}
+
+.c112:hover{
+  transform: scale(1.1);
+}
+
+.c113:hover{
+  transform: scale(1.1);
+}
+.c114:hover{
+  transform: scale(1.1);
+}
+.c115:hover{
+  transform: scale(1.1);
+}
